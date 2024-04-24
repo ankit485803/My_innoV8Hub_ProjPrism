@@ -1,0 +1,16 @@
+
+
+Proj Title:       "QRGen:  Transforming Links into Quick Response (QR) Codes"
+
+Feature (in-shot):  "Link2QR"
+
+Two Moduled used: 
+1. qrcode module link:  https://pypi.org/project/qrcode/
+2. tkinter (for GUI and UI)      https://docs.python.org/3/library/tkinter.html
+
+
+and used one Local device qr code image
+
+Command to install : 
+ pip install qrcode
+pip install tk
