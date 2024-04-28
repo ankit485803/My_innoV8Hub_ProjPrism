@@ -1,0 +1,15 @@
+{
+  "name": "02_profess_backendmastery_proj",
+  "version": "1.0.0",
+  "description": "This is my professional Backend full knowledge project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ankit485803",
+    "BackendProj"
+  ],
+  "author": "Ankit Kumar",
+  "license": "ISC"
+}
