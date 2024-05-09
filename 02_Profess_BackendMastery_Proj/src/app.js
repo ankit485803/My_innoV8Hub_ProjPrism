@@ -20,11 +20,21 @@ app.use(express.static("public"))
 app.use(cookieParser())
 
 
+// routes importing
+
+import userRouter from './routes/user.routes.js'
+
+
+//routes declaration , middleware need hai yaha
+// app.use("/users", userRouter)
+app.use("/api/v1/users", userRouter)
 
 
 
+//    http://localhost:8000/users/register
+//    http://localhost:8000/users/login
+//    http://localhost:8000/api/v1/users/register
 
 
-
-
+//exporting app as not DEFAULT
 export { app }
