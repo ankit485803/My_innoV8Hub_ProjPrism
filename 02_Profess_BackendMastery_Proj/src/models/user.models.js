@@ -65,7 +65,7 @@ const userSchema = new Schema(
 // HOOKE moongoose pre wala  liye
 userSchema.pre("save", async function (next) {
     if (!this.isModified("password")) return next();       //when modified passw then changed
-    this.password = bcrypt.hash(this.password, 10)
+    this.password = await bcrypt.hash(this.password, 10)
     next()
 })
 
