@@ -33,7 +33,7 @@ const registerUser = asyncHandler(async (req, res) => {
 
     }
 
-    const existedUser = User.findOne({
+    const existedUser = await User.findOne({
         $or: [{ username }, { email }]
     })
 
@@ -64,7 +64,7 @@ const registerUser = asyncHandler(async (req, res) => {
         email,
         password,
         username: username.toLowerCase()
-    })
+    });
 
     //checking user created successfully or not using moongose db id
     const createdUser = await User.findById(user._id).select(
@@ -89,4 +89,6 @@ const registerUser = asyncHandler(async (req, res) => {
 
 
 //exporting not as DEFAULTS
-export { registerUser }
+export {
+    registerUser,
+}
