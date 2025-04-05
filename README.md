@@ -25,7 +25,7 @@ This repository is more than just a collection of code and projects. It's a test
 I'm always eager to connect with fellow enthusiasts, collaborators, and mentors. Whether you have feedback, questions, or just want to chat, feel free to reach out to me:
 
 - 📧 Email: [ankit127iitp@gmail.com](mailto:ankit127iitp@gmail.com)
-- 💼 LinkedIn: [www.linkedin.com/in/ankit485803/](https://www.linkedin.com/in/ankit485803/)
+- 💼 LinkedIn: [www.linkedin.com/in/ankit127iitp/](https://www.linkedin.com/in/ankit127iitp/)
 - 🔗 Linktree Handles: [https://linktr.ee/ankit127iitp](https://linktr.ee/ankit127iitp)
 
 
