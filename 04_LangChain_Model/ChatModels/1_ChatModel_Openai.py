@@ -13,3 +13,4 @@ result = model.invoke("What is the capital of India?")
 result2 = model.invoke("Write a poem on cricket")
 
 print(model)
+
