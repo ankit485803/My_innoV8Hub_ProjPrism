@@ -1,0 +1,15 @@
+
+learn about :
+1.  UVICORN
+
+Uvicorn is an ASGI web server implementation for Python.
+
+Until recently Python has lacked a minimal low-level server/application interface for async frameworks. The ASGI
+specification fills this gap, and means we're now able to start building a common set of tooling usable across all async frameworks.
+https://pypi.org/project/uvicorn/
+
+and https://fastapi.tiangolo.com/, https://github.com/fastapi/fastapi
+
+2. create one file main.py, app.py, index.py kuch bhi ek name dijiye ok
+
+
