@@ -13,3 +13,41 @@ and https://fastapi.tiangolo.com/, https://github.com/fastapi/fastapi
 2. create one file main.py, app.py, index.py kuch bhi ek name dijiye ok
 
 
+videoLecLink: https://youtu.be/foGklduxhM0?si=KAP_z8WkKSWEG9Lx   and title: FastAPI crash course in Hindi
+
+
+
+3. some imp git command git commit -m "added the LecVideoLink of chaiAurCode and noteDown some imp git command for interns student common mistakes"
+
+
+3.1  git log --oneline --all --graph
+
+press q key to stop this
+
+3.2  last three commit
+git log --oneline -3    
+
+
+4.  git checkout -b feature/payment
+git branch -D feature/payment
+
+git branch -a
+
+
+5.  install this vs code extension Git Graph by https://github.com/mhutchie/vscode-git-graph.git
+
+6. Correct shortcut (File Explorer)
+To show hidden files (like .git folder):
+Alt + V + H + H
+
+👉 Press them one after another (not all at once):
+Alt → opens menu
+V → View
+H → Show
+H → Hidden items
+
+
+
+
+7.
+
