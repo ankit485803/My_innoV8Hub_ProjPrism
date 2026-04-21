@@ -49,5 +49,24 @@ H → Hidden items
 
 
 
-7.
+7. git branch name convention
+
+git branch "feat/add-chat-support"
+    git branch "feat/youtube-integration"
+    git branch "bug/login-not-working"
+
+    for visualization  https://git-school.github.io/visualizing-git/
+
+src: https://stackoverflow.com/questions/273695/what-are-some-examples-of-commonly-used-practices-for-naming-git-branches
+wip       Works in progress; stuff I know won't be finished soon
+feat      Feature I'm adding or expanding
+bug       Bug fix or experiment
+junk      Throwaway branch created to experiment
+
+
+8. WebAssembly (abbreviated as Wasm) is a low level binary instruction format for a stack-based virtual machine, designed as a portable, high-performance compilation target for programming languages. It allows code written in languages 
+like C++, Rust, Go, and others to run on the web at near-native speeds, complementing JavaScript rather than replacing it.
+
+
+9.
 
