@@ -1,0 +1,138 @@
+
+
+C:\Users\sanja\.ssh
+
+Q1.
+HOW TO SETUP SSH FOR GITHUB (STEP-BY-STEP)
+
+Step 1: Open PowerShell
+Open PowerShell on your system.
+
+---
+
+Step 2: Navigate to .ssh Folder
+Run the following command:
+cd C:\Users\YourUsername.ssh
+
+---
+
+Step 3: Generate SSH Key
+Run:
+ssh-keygen -t ed25519 -C "[your_email@example.com](mailto:your_email@example.com)"
+
+Press Enter for all prompts (use default settings).
+
+---
+
+Step 4: Verify SSH Files
+Run:
+ls
+
+You should see:
+
+* id_ed25519       (private key)
+* id_ed25519.pub   (public key)
+
+---
+
+Step 5: Copy Public Key
+Run:
+cat .\id_ed25519.pub
+
+Copy the entire output.
+
+---
+
+Step 6: Add SSH Key to GitHub
+
+1. Open GitHub
+2. Go to Settings
+3. Click on "SSH and GPG Keys"
+4. Click "New SSH Key"
+5. Paste your copied key
+6. Click "Add SSH Key"
+
+---
+
+Step 7: Test SSH Connection
+Run:
+ssh -T [git@github.com](mailto:git@github.com)
+
+Expected output:
+Hi your-username! You've successfully authenticated...
+
+---
+
+Step 8: Done
+Your SSH setup is complete. You can now use GitHub without entering username/password every time.
+
+---
+
+Note:
+Do not delete the "known_hosts" file. It is important for security.
+
+
+
+
+Q2. 
+SSH + GITHUB MULTI-DEVICE SETUP (SHORT)
+💡 How it works (multi-device setup)
+You can use multiple devices on the same project, like:
+    Laptop 💻
+    Desktop 🖥️
+    College lab system 🧑‍💻
+
+---
+Concept:
+
+* Git = track changes
+* GitHub = store code online
+* SSH = secure login (no password)
+---
+
+Rule:
+Each device needs its own SSH key.
+
+---
+
+Steps (on each device):
+
+1. Generate SSH key
+   ssh-keygen -t ed25519 -C "[your_email@example.com](mailto:your_email@example.com)"
+
+2. Copy key
+   cat ~/.ssh/id_ed25519.pub
+
+3. Add to GitHub
+   Settings → SSH and GPG Keys → New SSH Key
+
+---
+
+Clone Project (new device):
+git clone [git@github.com](mailto:git@github.com):username/repo-name.git
+
+---
+
+Workflow:
+
+Device A:
+git add .
+git commit -m "msg"
+git push
+
+Device B:
+git pull
+
+---
+
+Notes:
+
+* Don’t copy .ssh folder between devices
+* Add separate SSH key for each device
+
+---
+
+Result:
+Work on same project from multiple devices easily.
+
+---

@@ -68,5 +68,30 @@ junk      Throwaway branch created to experiment
 like C++, Rust, Go, and others to run on the web at near-native speeds, complementing JavaScript rather than replacing it.
 
 
-9.
+9. git branch v/s Rebasing 
 
+Branch = create a new road 🛣️
+Rebase = move your road onto a new highway
+
+
+10. Git Stashing 
+Temporarily save uncommitted changes, Clean your working directory without committing
+
+Why use it?
+Switch branches without losing work, Pause current work and resume later
+Common Use Case: Working on feature → urgent bug → stash → switch branch → fix → come back → apply stash
+
+git stash
+git stash list
+git stash apply
+git stash pop
+git stash drop
+
+Notes: 
+Stash is local only (not pushed to GitHub)
+Multiple stashes are stored like a stack
+Use git stash pop to restore and remove in one step
+
+
+
+11. 
