@@ -1,0 +1,11 @@
+
+
+26th March 2025 (Wednesday) Lec02 GenAI using LangChain 
+
+3rd April 2025 (Thursday) Video1: Intro to LangChain & Sets required to setup LangChain in VS code   
+
+This Lec Playlist is covered from CampusX links: https://youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0&si=9VSHTE7Srd9fEUY2
+
+
+
+

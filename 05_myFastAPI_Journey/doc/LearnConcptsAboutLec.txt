@@ -13,7 +13,7 @@ and https://fastapi.tiangolo.com/, https://github.com/fastapi/fastapi
 2. create one file main.py, app.py, index.py kuch bhi ek name dijiye ok
 
 
-videoLecLink: https://youtu.be/foGklduxhM0?si=KAP_z8WkKSWEG9Lx   and title: FastAPI crash course in Hindi
+videoLecLink: https://youtu.be/foGklduxhM0?si=KAP_z8WkKSWEG9Lx   and title: FastAPI crash course in Hindi (ChaiAurCode youtube channel)
 
 
 
